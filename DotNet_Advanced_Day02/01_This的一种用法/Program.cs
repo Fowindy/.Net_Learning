@@ -11,6 +11,7 @@ namespace _01_This的一种用法
         static void Main(string[] args)
         {
             Console.WriteLine("DotNet_Advanced_Day02");
+            Console.ReadLine();
         }
     }
 }
