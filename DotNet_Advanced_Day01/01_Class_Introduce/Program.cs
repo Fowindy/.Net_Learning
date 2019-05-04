@@ -11,6 +11,7 @@ namespace _01_Class_Introduce
         static void Main(string[] args)
         {
             Console.WriteLine("创建第一个项目");
+            Console.ReadLine();
         }
     }
 }
