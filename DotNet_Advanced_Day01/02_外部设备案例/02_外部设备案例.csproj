@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Computer.cs" />
     <Compile Include="MobileDisk.cs" />
-    <Compile Include="Mp3.cs" />
+    <Compile Include="MP3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StorageDevice.cs" />
