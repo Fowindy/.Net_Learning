@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_Class_Introduce
+namespace _01_动物类的继承
 {
     class Program
     {

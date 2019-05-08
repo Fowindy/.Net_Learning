@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Class_Introduce", "01_Class_Introduce\01_Class_Introduce.csproj", "{44C8478D-1FC3-4CA1-96F9-8A9B594D5FD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_动物类的继承", "01_动物类的继承\01_动物类的继承.csproj", "{44C8478D-1FC3-4CA1-96F9-8A9B594D5FD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
