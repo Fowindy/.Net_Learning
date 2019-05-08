@@ -32,6 +32,7 @@
             this.labComputer = new System.Windows.Forms.Label();
             this.labPlayerResult = new System.Windows.Forms.Label();
             this.labComputerResult = new System.Windows.Forms.Label();
+            this.labVS = new System.Windows.Forms.Label();
             this.labWinResult = new System.Windows.Forms.Label();
             this.btnStone = new System.Windows.Forms.Button();
             this.btnScissor = new System.Windows.Forms.Button();
@@ -73,6 +74,15 @@
             this.labComputerResult.Size = new System.Drawing.Size(53, 12);
             this.labComputerResult.TabIndex = 3;
             this.labComputerResult.Text = "出拳结果";
+            // 
+            // labVS
+            // 
+            this.labVS.AutoSize = true;
+            this.labVS.Location = new System.Drawing.Point(264, 62);
+            this.labVS.Name = "labVS";
+            this.labVS.Size = new System.Drawing.Size(17, 12);
+            this.labVS.TabIndex = 4;
+            this.labVS.Text = "VS";
             // 
             // labWinResult
             // 
@@ -119,6 +129,7 @@
             this.Controls.Add(this.btnScissor);
             this.Controls.Add(this.btnStone);
             this.Controls.Add(this.labWinResult);
+            this.Controls.Add(this.labVS);
             this.Controls.Add(this.labComputerResult);
             this.Controls.Add(this.labPlayerResult);
             this.Controls.Add(this.labComputer);
@@ -136,6 +147,7 @@
         private System.Windows.Forms.Label labComputer;
         private System.Windows.Forms.Label labPlayerResult;
         private System.Windows.Forms.Label labComputerResult;
+        private System.Windows.Forms.Label labVS;
         private System.Windows.Forms.Label labWinResult;
         private System.Windows.Forms.Button btnStone;
         private System.Windows.Forms.Button btnScissor;
