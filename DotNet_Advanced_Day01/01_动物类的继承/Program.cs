@@ -10,8 +10,10 @@ namespace _01_动物类的继承
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("创建第一个项目");
-            Console.ReadLine();
+            Animal a = new Cat();//new Dog();
+            a.Eat();
+            a.Shout();
+            Console.ReadKey();
         }
     }
 }

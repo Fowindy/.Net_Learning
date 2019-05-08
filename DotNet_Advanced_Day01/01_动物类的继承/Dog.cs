@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace _01_动物类的继承
 {
-    public class Dog
+    //Dog子类继承Animal父类
+    public class Dog:Animal
     {
+        public override void Eat()
+        {
+            Console.WriteLine("狗狗咬着吃...");
+        }
+
+        public override void Shout()
+        {
+            Console.WriteLine("狗狗汪汪叫...");
+        }
     }
 }
