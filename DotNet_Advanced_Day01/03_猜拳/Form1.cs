@@ -19,11 +19,20 @@ namespace _03_猜拳
 
         private void btnStone_Click(object sender, EventArgs e)
         {
+            //将触发事件强转为按钮
+            Button btn = (Button)sender;
+
+            //封装成方法
+            PlayGame(btn.Text);
+        }
+
+        private void PlayGame(string fistName)
+        {
             //点击按钮开始玩游戏
             //1.首先创建一个玩家
             Player player = new Player();
             //2.玩家开始出拳
-            int playerNum = player.PlayerPlay(btnStone.Text);
+            int playerNum = player.PlayerPlay(fistName);
             //3.将玩家出拳的内容显示在lab控件上
             labPlayerResult.Text = player.PlayerFistName;
 
@@ -37,7 +46,7 @@ namespace _03_猜拳
             //5.创建一个裁判
             Judge judge = new Judge();
             //6.将输赢的结果显示在label控件上
-            labWinResult.Text = judge.Win(playerNum,computerNum);
+            labWinResult.Text = judge.Win(playerNum, computerNum);
         }
     }
 }
