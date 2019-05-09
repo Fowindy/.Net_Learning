@@ -46,7 +46,7 @@ namespace _03_猜拳
             //5.创建一个裁判
             Judge judge = new Judge();
             //6.将输赢的结果显示在label控件上
-            labWinResult.Text = judge.Win(playerNum, computerNum);
+            labWinResult.Text = judge.Win(playerNum,computerNum);
         }
     }
 }
