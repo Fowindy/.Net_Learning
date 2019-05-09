@@ -20,6 +20,7 @@ namespace _03_猜拳
         private void btnStone_Click(object sender, EventArgs e)
         {
             //将触发事件强转为按钮
+            //sender表示谁触发我,我就是谁
             Button btn = (Button)sender;
 
             //封装成方法
