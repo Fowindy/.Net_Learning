@@ -21,7 +21,9 @@ namespace Calculator
             this.Num1 = num1;
             this.Num2 = num2;
         }
-        //定义抽象方法,获取两个数的结果---正确做法
-        public abstract int GetResult(int n1, int n2);
+
+        //错误说明1:不允许这样,因为Num1, Num2相当于实例属性
+        //直接通过Num1, Num2无法拿到值,切记此处是传参
+        public abstract int GetResult(Num1, Num2);
     }
 }
