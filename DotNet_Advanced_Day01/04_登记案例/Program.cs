@@ -41,18 +41,21 @@ namespace _04_登记案例
 
         public static void GetDengJi(IDengJi dj)
         {
-            if (dj is Student)
-            {
-                dj = new Student();
-            }
-            else if (dj is Car)
-            {
-                dj = new Car();
-            }
-            else if (dj is House)
-            {
-                dj = new House();
-            }
+            //如果每一个子类中的方法都不一样,并且没有重写,才需要判断
+            
+            //可以省略
+            //if (dj is Student)
+            //{
+            //    dj = new Student();
+            //}
+            //else if (dj is Car)
+            //{
+            //    dj = new Car();
+            //}
+            //else if (dj is House)
+            //{
+            //    dj = new House();
+            //}
             dj.DengJi();
         }
     }
