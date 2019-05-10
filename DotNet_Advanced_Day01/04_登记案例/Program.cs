@@ -21,6 +21,9 @@ namespace _04_登记案例
             student.SayHello();
             student.DengJi();
 
+            House house = new House();
+            house.DengJi();
+
             Console.ReadKey();
         }
     }
