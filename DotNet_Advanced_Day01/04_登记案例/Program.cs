@@ -27,11 +27,33 @@ namespace _04_登记案例
             #endregion
 
             #region 第二种方式,推荐
-            IDengJi dj = new Car()/*new Student()*//*new House()*/;
-            dj.DengJi(); 
+            //IDengJi dj = new Car()/*new Student()*//*new House()*/;
+            //dj.DengJi(); 
             #endregion
 
+            #region 登记第三种方式,强力推荐
+            GetDengJi(new Student());
+            GetDengJi(new Car());
+            GetDengJi(new House()); 
+            #endregion
             Console.ReadKey();
+        }
+
+        public static void GetDengJi(IDengJi dj)
+        {
+            if (dj is Student)
+            {
+                dj = new Student();
+            }
+            else if (dj is Car)
+            {
+                dj = new Car();
+            }
+            else if (dj is House)
+            {
+                dj = new House();
+            }
+            dj.DengJi();
         }
     }
 }
