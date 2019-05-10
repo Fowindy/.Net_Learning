@@ -16,10 +16,8 @@ namespace _04_登记案例
 
         //错误2.	“IDengJi.DengJi()”: 接口成员不能有定义
         //---接口的成员不能有实现;接口是为了多态;实现虚方法抽象方法;
-        public void DengJi()
-        {
-
-        } 
+        //04_登记案例_易错知识点1_正确做法
+        void DengJi();
         #endregion
     }
 }
