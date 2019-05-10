@@ -10,19 +10,26 @@ namespace _04_登记案例
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
+            #region 第一种登记方式,不推荐
+            //Person person = new Person();
             //person.DengJi();
-            person.SayHello();
+            //person.SayHello();
 
-            Car car = new Car();
-            car.DengJi();
+            //Car car = new Car();
+            //car.DengJi();
 
-            Student student = new Student();
-            student.SayHello();
-            student.DengJi();
+            //Student student = new Student();
+            //student.SayHello();
+            //student.DengJi();
 
-            House house = new House();
-            house.DengJi();
+            //House house = new House();
+            //house.DengJi(); 
+            #endregion
+
+            #region 第二种方式,推荐
+            IDengJi dj = new Car()/*new Student()*//*new House()*/;
+            dj.DengJi(); 
+            #endregion
 
             Console.ReadKey();
         }
