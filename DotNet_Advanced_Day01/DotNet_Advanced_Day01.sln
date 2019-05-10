@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_外部设备案例", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_猜拳", "03_猜拳\03_猜拳.csproj", "{E70C4662-209A-4B1A-B3EB-E1811D1E6A22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_登记案例", "04_登记案例\04_登记案例.csproj", "{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E70C4662-209A-4B1A-B3EB-E1811D1E6A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70C4662-209A-4B1A-B3EB-E1811D1E6A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70C4662-209A-4B1A-B3EB-E1811D1E6A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
