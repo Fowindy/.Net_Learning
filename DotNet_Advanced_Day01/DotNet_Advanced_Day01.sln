@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_猜拳", "03_猜拳\03_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_登记案例", "04_登记案例\04_登记案例.csproj", "{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_计算器", "05_计算器\05_计算器.csproj", "{5291CAE7-93E9-43AD-A220-E7A8867FEEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{061563CE-7A33-4DBE-A864-5C809289562C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669BB98E-A691-4E81-BEDB-BC82B5FE4CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5291CAE7-93E9-43AD-A220-E7A8867FEEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5291CAE7-93E9-43AD-A220-E7A8867FEEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5291CAE7-93E9-43AD-A220-E7A8867FEEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5291CAE7-93E9-43AD-A220-E7A8867FEEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061563CE-7A33-4DBE-A864-5C809289562C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061563CE-7A33-4DBE-A864-5C809289562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061563CE-7A33-4DBE-A864-5C809289562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061563CE-7A33-4DBE-A864-5C809289562C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
