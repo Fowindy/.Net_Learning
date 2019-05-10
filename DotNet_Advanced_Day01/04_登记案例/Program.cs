@@ -10,6 +10,12 @@ namespace _04_登记案例
     {
         static void Main(string[] args)
         {
+            Person person = new Person();
+            person.DengJi();
+
+            Car car = new Car();
+            car.DengJi();
+            Console.ReadKey();
         }
     }
 }
