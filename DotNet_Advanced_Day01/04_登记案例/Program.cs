@@ -11,13 +11,15 @@ namespace _04_登记案例
         static void Main(string[] args)
         {
             Person person = new Person();
-            person.DengJi();
+            //person.DengJi();
+            person.SayHello();
 
             Car car = new Car();
             car.DengJi();
 
             Student student = new Student();
-            student.DengJi();//人可以登记了,只是调用父类Person方法
+            student.SayHello();
+            student.DengJi();
 
             Console.ReadKey();
         }

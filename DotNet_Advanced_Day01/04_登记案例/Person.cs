@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace _04_登记案例
 {
-    public class Person:IDengJi
+    //解除Person类与接口的关系
+    public class Person
     {
-        public void DengJi()
+        public void SayHello()
         {
-            Console.WriteLine("人可以登记了");
+            Console.WriteLine("我是人类");
         }
     }
 }
