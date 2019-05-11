@@ -50,6 +50,8 @@ namespace _05_计算器
             {
                 case "+":js = new Add(num1,num2);break;
                 case "-":js = new Sub(num1, num2);break;
+                //8_4.乘法
+                case "*":js = new ChengFa(num1, num2);break;
             }
             return js;
         }
