@@ -21,9 +21,7 @@ namespace Calculator
             this.Num1 = num1;
             this.Num2 = num2;
         }
-
-        //错误说明1:不允许这样,因为Num1, Num2相当于实例属性
-        //直接通过Num1, Num2无法拿到值,切记此处是传参
-        public abstract int GetResult(Num1, Num2);
+        //3_2.需改成这样
+        public abstract int GetResult();
     }
 }

@@ -8,12 +8,18 @@ namespace Calculator
 {
     public class Add : JiSuan
     {
-        public override int GetResult(int n1, int n2)
+        //3_4.当你调用构造函数的时候,将子类num1,num2传到父类中去了
+        public Add(int num1, int num2) : base(num1, num2)
         {
-            return n1 + n2;
         }
-        //public Add(int num1, int num2) : base(num1, num2)
-        //{
-        //}
+
+        //3_3.在子类中有关联
+        public override int GetResult()
+        {
+            //3_1.可以如下写法:
+            //return this.Num1 + this.Num2;
+            //3_5.传入后正好是父类的,等价于如下写法:
+            return base.Num1 + base.Num2;
+        }
     }
 }
