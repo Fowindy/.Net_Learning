@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//6_1.第一种导入类库命名空间,也等价于6_1-1
+//using Calculator;
 
 namespace _05_计算器
 {
@@ -18,6 +20,8 @@ namespace _05_计算器
             Console.Write("请输入一个操作符(+,-,*,/):");
             string opt = Console.ReadLine();//符号
 
+            //6_1-1.
+            Calculator.Add()
 
             //类---类库的方式
         }
