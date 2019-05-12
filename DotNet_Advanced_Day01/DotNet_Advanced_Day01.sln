@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_计算器", "05_计算�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{061563CE-7A33-4DBE-A864-5C809289562C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_文件案例", "06_文件案例\06_文件案例.csproj", "{072FD04E-51EA-432D-9682-D29965EB6BFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{061563CE-7A33-4DBE-A864-5C809289562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061563CE-7A33-4DBE-A864-5C809289562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061563CE-7A33-4DBE-A864-5C809289562C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072FD04E-51EA-432D-9682-D29965EB6BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072FD04E-51EA-432D-9682-D29965EB6BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072FD04E-51EA-432D-9682-D29965EB6BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072FD04E-51EA-432D-9682-D29965EB6BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
